@@ -19,7 +19,7 @@
             
             <li>
             
-                <h3>WordPress is a...</h3>
+                <h3>WordPress är en...</h3>
                 
                 <div>
                     <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -38,14 +38,14 @@
                 
                 <div>
                     <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                    <label for="question-1-answers-D">D) Other</label>
+                    <label for="question-1-answers-D">D) Övrigt</label>
                 </div>
             
             </li>
             
             <li>
             
-                <h3>SEO is Part Of...</h3>
+                <h3>Vad är SEO ?</h3>
                 
                 <div>
                     <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
@@ -71,16 +71,16 @@
             
             <li>
             
-                <h3>PHP is a....</h3>
+                <h3>PHP är en....</h3>
                 
                 <div>
                     <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                    <label for="question-3-answers-A">A) Server Side Script</label>
+                    <label for="question-3-answers-A">A) Server Sida Script</label>
                 </div>
                 
                 <div>
                     <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                    <label for="question-3-answers-B">B) Programming Language</label>
+                    <label for="question-3-answers-B">B) Programmering språk</label>
                 </div>
                 
                 <div>
@@ -97,7 +97,7 @@
             
             <li>
             
-                <h3>Localhost IP is..</h3>
+                <h3>Localhost IP är..</h3>
                 
                 <div>
                     <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
@@ -123,7 +123,7 @@
             
             <li>
             
-                <h3>Webdevtrick Is For</h3>
+                <h3>Webdevtrick är för...</h3>
                 
                 <div>
                     <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
@@ -143,6 +143,136 @@
                 <div>
                     <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                     <label for="question-5-answers-D">D) All Above These</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>HTML står för...</h3>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                    <label for="question-6-answers-A">A) HyperText Markup Language</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                    <label for="question-6-answers-B">B) Hyper Markup Language</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+                    <label for="question-6-answers-C">C) Hypertext Transfer Protocol</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+                    <label for="question-6-answers-D">D) HyperTex</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>HTTP står för...</h3>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+                    <label for="question-7-answers-A">A) HyperText Markup Language</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+                    <label for="question-7-answers-B">B) Hyper Markup Language</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+                    <label for="question-7-answers-C">C) Hypertext Transfer Protocol</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
+                    <label for="question-7-answers-D">D) HyperTex</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>Vad är Bootstrap ?</h3>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+                    <label for="question-8-answers-A">A) Javascript Biblioteket</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+                    <label for="question-8-answers-B">B) CSS Biblioteket</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+                    <label for="question-8-answers-C">C) Programmerings språk</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+                    <label for="question-8-answers-D">D) Markup Language</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>Vem äger react ?</h3>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                    <label for="question-9-answers-A">A) Microsoft</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                    <label for="question-9-answers-B">B) Twitter</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
+                    <label for="question-9-answers-C">C)Facebook</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
+                    <label for="question-9-answers-D">D) Bill Gates</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>Vilken av de är en javascript ramverk ?</h3>
+                
+                <div>
+                    <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
+                    <label for="question-10-answers-A">A) Laravel</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
+                    <label for="question-10-answers-B">B) Vue</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
+                    <label for="question-10-answers-C">C) Flask</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
+                    <label for="question-10-answers-D">D) .Net</label>
                 </div>
             
             </li>

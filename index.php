@@ -291,7 +291,7 @@
         
         </ol>
         
-        <input type="submit" value="Submit" id="submit-btn" />
+        <input type="submit" name="score" value="Submit" id="submit-btn" />
     
     </form>
 

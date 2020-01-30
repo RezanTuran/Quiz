@@ -1,7 +1,6 @@
+<?php session_start(); ?>
 
 <?php
-
-session_start();
 
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -91,7 +90,7 @@ session_start();
                 echo "Fråga 10 är fel</br>";
             }
 
-
+            setcookie('score', $totalCorrect, time()+60*60*24);
             echo "<br>";
             echo "<div id='results'><h4>$totalCorrect / 10 Rätt </h4></div>";
 ?>

@@ -29,65 +29,65 @@
 
             if ($answer1 == "C") { 
                 $totalCorrect++;
-                echo "Fråga 1 är rätt : $answer1<br>" ;
+                echo "<h5 style=color:green;>Fråga 1 är rätt : $answer1</h5>" ;
             }elseif($answer1 != "C"){
-                echo "Fråga 1 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 1 är fel </h5>";
             }
             if ($answer2 == "D") {
                  $totalCorrect++;
-                 echo "Fråga 2 är rätt : $answer2<br>";
+                 echo "<h5 style=color:green;>Fråga 2 är rätt : $answer2<h5>";
             }elseif($answer2 != "D"){
-                echo "Fråga 2 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 2 är fel</h5>";
             }
             if ($answer3 == "A") {
                  $totalCorrect++;
-                echo "Fråga 3 är rätt : $answer3<br>";
+                echo "<h5 style=color:green;>Fråga 3 är rätt : $answer3</h5>";
             }elseif($answer3 != "A"){
-                echo "Fråga 3 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 3 är fel</h5>";
             }
             if ($answer4 == "D") {
                  $totalCorrect++; 
-                 echo "Fråga 4 är rätt : $answer4<br>";
+                 echo "<h5 style=color:green;>Fråga 4 är rätt : $answer4</h5>";
             }elseif($answer4 != "D"){
-                echo "Fråga 4 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 4 är fel</h5>";
             }
             if ($answer5 == "D") {
                  $totalCorrect++; 
-                 echo "Fråga 5 är rätt : $answer5<br>";
+                 echo "<h5 style=color:green;>Fråga 5 är rätt : $answer5</h5>";
             }elseif($answer5 != "D"){
-                echo "Fråga 5 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 5 är fel</h5>";
             }
             if ($answer6 == "A") { 
                 $totalCorrect++;
-                echo "Fråga 6 är rätt : $answer6<br>";
+                echo "<h5 style=color:green;>Fråga 6 är rätt : $answer6</h5>";
             }elseif($answer6 != "A"){
-                echo "Fråga 6 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 6 är fel</h5>";
             }
             if ($answer7 == "C") {
                  $totalCorrect++; 
-                 echo "Fråga 7 är rätt : $answer7<br>";
+                 echo "<h5 style=color:green;>Fråga 7 är rätt : $answer7</h5>";
             }elseif($answer7 != "C"){
-                echo "Fråga 7 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 7 är fel</h5>";
             }
             if ($answer8 == "B") {
                  $totalCorrect++;  
-                 echo "Fråga 8 är rätt : $answer8<br>";
+                 echo "<h5 style=color:green;>Fråga 8 är rätt : $answer8</h5>";
             }elseif($answer8 != "B"){
-                echo "Fråga 8 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 8 är fel</h5>";
             }
             if ($answer9 == "C") {
                  $totalCorrect++;
-                echo "Fråga 9 är rätt : $answer9<br>";
+                echo "<h5 style=color:green;>Fråga 9 är rätt : $answer9</h5>";
             }
             elseif($answer9 != "C"){
-                echo "Fråga 9 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 9 är fel</h5>";
             }
             if ($answer10 == "B") {
                  $totalCorrect++;  
-                 echo "Fråga 10 är rätt : $answer10<br>";
+                 echo "<h5 style=color:green;>Fråga 10 är rätt : $answer10</h5>";
                 }
             elseif($answer10 != "B"){
-                echo "Fråga 10 är fel</br>";
+                echo "<h5 style=color:red;>Fråga 10 är fel</h5>";
             }
 
             setcookie('score', $totalCorrect, time()+60*60*24);

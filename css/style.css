@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+#submit-btn{
+        border: 2px solid green;
+        width: 10em;
+        height: 3em;
+        font-size: 15px;
+}
+#submit-btn:hover{
+    background-color:yellow;
+    color: red;
+}
